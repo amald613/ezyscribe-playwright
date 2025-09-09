@@ -11,6 +11,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # ✅ allow pushing to gh-pages
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
