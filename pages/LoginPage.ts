@@ -1,4 +1,4 @@
-import { Page, Locator } from "@playwright/test";
+import { Page, Locator,expect } from "@playwright/test";
 
 export class LoginPage {
   readonly page: Page;
@@ -57,6 +57,8 @@ export class LoginPage {
   }
 
   async getCombinedErrorMessage() {
+    await this.page.waitForLoadState("networkidle");
+    await expect(this.combinedError).toBeVisible({ timeout: 5000 });
     return await this.combinedError.innerText().catch(() => "");
   }
 
