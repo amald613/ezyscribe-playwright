@@ -579,3 +579,62 @@ Call log:
 [2025-09-09 20:25:08] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
 [2025-09-09 20:25:10] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
 [2025-09-09 20:25:12] [32MINFO[39M: [TC24] ✅ Login successful
+[2025-09-09 22:46:42] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 22:46:42] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 22:46:44] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-09 22:46:46] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 22:46:46] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 22:46:55] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 22:46:55] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 22:47:03] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 22:47:03] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 22:47:05] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 22:47:05] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 22:47:07] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 22:47:07] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 22:47:10] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 22:47:10] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 22:47:12] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 22:47:12] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 22:47:14] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 22:47:14] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 22:47:23] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 22:47:23] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 22:47:30] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 22:47:30] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 22:47:32] [32MINFO[39M: [TC15] ✅ Login successful
+[2025-09-09 22:47:34] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 22:47:34] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 22:47:49] [31MERROR[39M: [TC19] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 22:47:50] [32MINFO[39M: [TC19] Attempt 2: Navigated to login page
+[2025-09-09 22:47:51] [32MINFO[39M: [TC19] Attempt 2: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 22:47:53] [32MINFO[39M: [TC19] ✅ Login successful
+[2025-09-09 22:47:56] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 22:47:56] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 22:48:04] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 22:48:04] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 22:48:06] [32MINFO[39M: [TC23] ✅ Login successful
+[2025-09-09 22:48:08] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 22:48:08] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 22:48:23] [31MERROR[39M: [TC24] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 22:48:24] [32MINFO[39M: [TC24] Attempt 2: Navigated to login page
+[2025-09-09 22:48:24] [32MINFO[39M: [TC24] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-09 22:48:26] [32MINFO[39M: [TC24] ✅ Login successful

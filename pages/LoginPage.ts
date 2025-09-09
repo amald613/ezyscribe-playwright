@@ -58,8 +58,15 @@ export class LoginPage {
 
   async getCombinedErrorMessage() {
     await this.page.waitForLoadState("networkidle");
-    
-    return await this.combinedError.innerText().catch(() => "");
+     try {
+        await expect(this.combinedError).toBeVisible({ timeout: 5000 });
+        return await this.combinedError.innerText().catch(() => "");
+        } catch {
+      // wait a bit and try once more
+      await this.page.waitForTimeout(10000);
+      await expect(this.combinedError).toBeVisible({ timeout: 5000 });
+      return await this.combinedError.innerText().catch(() => "");
+    }
   }
 
 
