@@ -1,0 +1,475 @@
+[2025-09-09 15:22:42] [32MINFO[39M: [TC02] Navigated to login page
+[2025-09-09 15:22:42] [32MINFO[39M: [TC04] Navigated to login page
+[2025-09-09 15:22:42] [32MINFO[39M: [TC01] Navigated to login page
+[2025-09-09 15:22:42] [32MINFO[39M: [TC03] Navigated to login page
+[2025-09-09 15:23:11] [32MINFO[39M: [TC07] Navigated to login page
+[2025-09-09 15:23:12] [32MINFO[39M: [TC06] Navigated to login page
+[2025-09-09 15:23:12] [32MINFO[39M: [TC10] Navigated to login page
+[2025-09-09 15:23:12] [32MINFO[39M: [TC05] Navigated to login page
+[2025-09-09 15:23:44] [32MINFO[39M: [TC12] Navigated to login page
+[2025-09-09 15:23:44] [32MINFO[39M: [TC11] Navigated to login page
+[2025-09-09 15:23:44] [32MINFO[39M: [TC15] Navigated to login page
+[2025-09-09 15:23:44] [32MINFO[39M: [TC19] Navigated to login page
+[2025-09-09 15:24:15] [32MINFO[39M: [TC23] Navigated to login page
+[2025-09-09 15:24:16] [32MINFO[39M: [TC20] Navigated to login page
+[2025-09-09 15:24:16] [32MINFO[39M: [TC24] Navigated to login page
+[2025-09-09 17:12:39] [32MINFO[39M: [TC15] Navigated to login page
+[2025-09-09 17:12:40] [32MINFO[39M: [TC15] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:12:40] [31MERROR[39M: [TC15] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:12:46] [32MINFO[39M: [TC19] Navigated to login page
+[2025-09-09 17:12:46] [32MINFO[39M: [TC19] Submitted login with email: Testprovider@gmail.com
+[2025-09-09 17:12:46] [31MERROR[39M: [TC19] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:12:50] [32MINFO[39M: [TC20] Navigated to login page
+[2025-09-09 17:12:51] [32MINFO[39M: [TC20] Submitted login with email: doctor@example.com
+[2025-09-09 17:13:23] [32MINFO[39M: [TC23] Navigated to login page
+[2025-09-09 17:13:23] [32MINFO[39M: [TC23] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:13:23] [31MERROR[39M: [TC23] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:13:27] [32MINFO[39M: [TC24] Navigated to login page
+[2025-09-09 17:13:27] [32MINFO[39M: [TC24] Submitted login with email: testscribe@gmail.com
+[2025-09-09 17:13:27] [32MINFO[39M: [TC24] ✅ Scribe login successful
+[2025-09-09 17:16:24] [32MINFO[39M: [TC01] Navigated to login page
+[2025-09-09 17:16:25] [32MINFO[39M: [TC01] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:16:25] [31MERROR[39M: [TC01] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:16:29] [32MINFO[39M: [TC02] Navigated to login page
+[2025-09-09 17:16:29] [32MINFO[39M: [TC02] Submitted login with email: wrongemail@example.com
+[2025-09-09 17:17:00] [32MINFO[39M: [TC03] Navigated to login page
+[2025-09-09 17:17:01] [32MINFO[39M: [TC03] Submitted login with email: doctor@example.com
+[2025-09-09 17:17:31] [32MINFO[39M: [TC04] Navigated to login page
+[2025-09-09 17:17:31] [32MINFO[39M: [TC04] Submitted login with email: 
+[2025-09-09 17:17:58] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 17:18:02] [32MINFO[39M: [TC05] Navigated to login page
+[2025-09-09 17:18:02] [32MINFO[39M: [TC05] Submitted login with email: doctor@example.com
+[2025-09-09 17:18:33] [32MINFO[39M: [TC06] Navigated to login page
+[2025-09-09 17:18:33] [32MINFO[39M: [TC06] Submitted login with email: 
+[2025-09-09 17:19:00] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 17:19:04] [32MINFO[39M: [TC07] Navigated to login page
+[2025-09-09 17:19:04] [32MINFO[39M: [TC07] Submitted login with email: doctor@@example
+[2025-09-09 17:19:31] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 17:19:35] [32MINFO[39M: [TC10] Navigated to login page
+[2025-09-09 17:19:35] [32MINFO[39M: [TC10] Submitted login with email: special@!#$.com
+[2025-09-09 17:20:02] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 17:20:06] [32MINFO[39M: [TC11] Navigated to login page
+[2025-09-09 17:20:06] [32MINFO[39M: [TC11] Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 17:20:37] [32MINFO[39M: [TC12] Navigated to login page
+[2025-09-09 17:20:37] [32MINFO[39M: [TC12] Submitted login with email: doctor@example.com
+[2025-09-09 17:21:08] [32MINFO[39M: [TC15] Navigated to login page
+[2025-09-09 17:21:08] [32MINFO[39M: [TC15] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:21:09] [31MERROR[39M: [TC15] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:21:12] [32MINFO[39M: [TC19] Navigated to login page
+[2025-09-09 17:21:12] [32MINFO[39M: [TC19] Submitted login with email: Testprovider@gmail.com
+[2025-09-09 17:21:13] [31MERROR[39M: [TC19] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:21:16] [32MINFO[39M: [TC20] Navigated to login page
+[2025-09-09 17:21:16] [32MINFO[39M: [TC20] Submitted login with email: doctor@example.com
+[2025-09-09 17:21:48] [32MINFO[39M: [TC23] Navigated to login page
+[2025-09-09 17:21:50] [32MINFO[39M: [TC23] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:21:53] [31MERROR[39M: [TC23] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:21:57] [32MINFO[39M: [TC24] Navigated to login page
+[2025-09-09 17:22:00] [32MINFO[39M: [TC24] Submitted login with email: testscribe@gmail.com
+[2025-09-09 17:22:03] [31MERROR[39M: [TC24] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:36:57] [32MINFO[39M: [TC01] Navigated to login page
+[2025-09-09 17:36:57] [32MINFO[39M: [TC01] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:36:58] [31MERROR[39M: [TC01] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:37:02] [32MINFO[39M: [TC02] Navigated to login page
+[2025-09-09 17:37:02] [32MINFO[39M: [TC02] Submitted login with email: wrongemail@example.com
+[2025-09-09 17:37:02] [33MWARN[39M: [TC02] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:37:04] [32MINFO[39M: [TC03] Navigated to login page
+[2025-09-09 17:37:04] [32MINFO[39M: [TC03] Submitted login with email: doctor@example.com
+[2025-09-09 17:37:05] [33MWARN[39M: [TC03] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:37:08] [32MINFO[39M: [TC04] Navigated to login page
+[2025-09-09 17:37:08] [32MINFO[39M: [TC04] Submitted login with email: 
+[2025-09-09 17:37:08] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 17:37:10] [32MINFO[39M: [TC05] Navigated to login page
+[2025-09-09 17:37:10] [32MINFO[39M: [TC05] Submitted login with email: doctor@example.com
+[2025-09-09 17:37:10] [33MWARN[39M: [TC05] ⚠️ Password error: Password must be at least 8 characters.
+[2025-09-09 17:37:12] [32MINFO[39M: [TC06] Navigated to login page
+[2025-09-09 17:37:12] [32MINFO[39M: [TC06] Submitted login with email: 
+[2025-09-09 17:37:12] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 17:37:14] [32MINFO[39M: [TC07] Navigated to login page
+[2025-09-09 17:37:14] [32MINFO[39M: [TC07] Submitted login with email: doctor@@example
+[2025-09-09 17:37:14] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 17:37:16] [32MINFO[39M: [TC10] Navigated to login page
+[2025-09-09 17:37:16] [32MINFO[39M: [TC10] Submitted login with email: special@!#$.com
+[2025-09-09 17:37:16] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 17:37:18] [32MINFO[39M: [TC11] Navigated to login page
+[2025-09-09 17:37:18] [32MINFO[39M: [TC11] Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 17:37:19] [33MWARN[39M: [TC11] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:37:21] [32MINFO[39M: [TC12] Navigated to login page
+[2025-09-09 17:37:21] [32MINFO[39M: [TC12] Submitted login with email: doctor@example.com
+[2025-09-09 17:37:22] [33MWARN[39M: [TC12] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:37:24] [32MINFO[39M: [TC15] Navigated to login page
+[2025-09-09 17:37:24] [32MINFO[39M: [TC15] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:37:24] [31MERROR[39M: [TC15] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:37:28] [32MINFO[39M: [TC19] Navigated to login page
+[2025-09-09 17:37:28] [32MINFO[39M: [TC19] Submitted login with email: Testprovider@gmail.com
+[2025-09-09 17:37:28] [31MERROR[39M: [TC19] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:37:31] [32MINFO[39M: [TC20] Navigated to login page
+[2025-09-09 17:37:31] [32MINFO[39M: [TC20] Submitted login with email: doctor@example.com
+[2025-09-09 17:37:59] [33MWARN[39M: [TC20] ⚠️ Combined error: 
+[2025-09-09 17:37:59] [31MERROR[39M: [TC20] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:38:03] [32MINFO[39M: [TC23] Navigated to login page
+[2025-09-09 17:38:03] [32MINFO[39M: [TC23] Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:38:03] [31MERROR[39M: [TC23] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:38:07] [32MINFO[39M: [TC24] Navigated to login page
+[2025-09-09 17:38:07] [32MINFO[39M: [TC24] Submitted login with email: testscribe@gmail.com
+[2025-09-09 17:38:08] [31MERROR[39M: [TC24] ❌ Test failed. Screenshot captured.
+[2025-09-09 17:42:47] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 17:42:47] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:42:47] [33MWARN[39M: [TC01] Retry attempt 1 due to error: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2025-09-09 17:42:53] [32MINFO[39M: [TC01] Attempt 2: Navigated to login page
+[2025-09-09 17:43:14] [33MWARN[39M: [TC01] Retry attempt 2 due to error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('textbox', { name: 'Email' })[22m
+
+[2025-09-09 17:43:18] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 17:43:18] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 17:43:19] [33MWARN[39M: [TC02] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:43:22] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 17:43:22] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:43:23] [33MWARN[39M: [TC03] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:43:25] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 17:43:25] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 17:43:25] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 17:43:27] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 17:43:27] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:43:27] [33MWARN[39M: [TC05] ⚠️ Password error: Password must be at least 8 characters.
+[2025-09-09 17:43:29] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 17:43:29] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 17:43:29] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 17:43:31] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 17:43:31] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 17:43:31] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 17:43:33] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 17:43:33] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 17:43:33] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 17:43:36] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 17:43:36] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 17:43:37] [33MWARN[39M: [TC11] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:43:39] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 17:43:39] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:43:40] [33MWARN[39M: [TC12] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:43:42] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 17:43:42] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:43:42] [33MWARN[39M: [TC15] Retry attempt 1 due to error: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2025-09-09 17:43:48] [32MINFO[39M: [TC15] Attempt 2: Navigated to login page
+[2025-09-09 17:44:10] [33MWARN[39M: [TC15] Retry attempt 2 due to error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('textbox', { name: 'Email' })[22m
+
+[2025-09-09 17:44:14] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 17:44:14] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 17:44:14] [33MWARN[39M: [TC19] Retry attempt 1 due to error: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2025-09-09 17:44:20] [32MINFO[39M: [TC19] Attempt 2: Navigated to login page
+[2025-09-09 17:44:41] [33MWARN[39M: [TC19] Retry attempt 2 due to error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('textbox', { name: 'Email' })[22m
+
+[2025-09-09 17:44:45] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 17:44:45] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:44:46] [33MWARN[39M: [TC20] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:44:48] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 17:44:48] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:44:48] [33MWARN[39M: [TC23] Retry attempt 1 due to error: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2025-09-09 17:44:54] [32MINFO[39M: [TC23] Attempt 2: Navigated to login page
+[2025-09-09 17:45:16] [33MWARN[39M: [TC23] Retry attempt 2 due to error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('textbox', { name: 'Email' })[22m
+
+[2025-09-09 17:45:21] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 17:45:21] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 17:45:21] [33MWARN[39M: [TC24] Retry attempt 1 due to error: [2mexpect([22m[31mreceived[39m[2m).[22mresolves[2m.[22mtoBeTruthy[2m()[22m
+
+Received: [31mfalse[39m
+[2025-09-09 17:45:27] [32MINFO[39M: [TC24] Attempt 2: Navigated to login page
+[2025-09-09 17:45:47] [33MWARN[39M: [TC24] Retry attempt 2 due to error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('textbox', { name: 'Email' })[22m
+
+[2025-09-09 17:46:02] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 17:46:02] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:46:06] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 17:46:06] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 17:46:07] [33MWARN[39M: [TC02] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:46:09] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 17:46:10] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:46:10] [33MWARN[39M: [TC03] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:46:12] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 17:46:12] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 17:46:12] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 17:46:15] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 17:46:15] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:46:15] [33MWARN[39M: [TC05] ⚠️ Password error: Password must be at least 8 characters.
+[2025-09-09 17:46:17] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 17:46:17] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 17:46:17] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 17:46:19] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 17:46:19] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 17:46:19] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 17:46:21] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 17:46:21] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 17:46:21] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 17:46:23] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 17:46:23] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 17:46:24] [33MWARN[39M: [TC11] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:46:26] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 17:46:26] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:46:27] [33MWARN[39M: [TC12] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:46:29] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 17:46:29] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:46:33] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 17:46:33] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 17:46:37] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 17:46:37] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:47:04] [33MWARN[39M: [TC20] ⚠️ Combined error: 
+[2025-09-09 17:47:07] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 17:47:07] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:47:11] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 17:47:11] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 17:52:38] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 17:52:38] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:52:40] [32MINFO[39M: [TC01] ✅ Doctor login successful
+[2025-09-09 17:52:42] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 17:52:42] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 17:52:43] [33MWARN[39M: [TC02] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:52:48] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 17:52:48] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:52:49] [33MWARN[39M: [TC03] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:52:54] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 17:52:54] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 17:52:54] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 17:52:56] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 17:52:56] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:52:56] [33MWARN[39M: [TC05] ⚠️ Password error: Password must be at least 8 characters.
+[2025-09-09 17:52:58] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 17:52:58] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 17:52:58] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 17:53:00] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 17:53:00] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 17:53:00] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 17:53:02] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 17:53:02] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 17:53:02] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 17:53:05] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 17:53:05] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 17:53:05] [33MWARN[39M: [TC11] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:53:11] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 17:53:11] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:53:12] [33MWARN[39M: [TC12] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:53:17] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 17:53:17] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:53:19] [32MINFO[39M: [TC15] ✅ Doctor login successful
+[2025-09-09 17:53:21] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 17:53:21] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 17:53:29] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 17:53:29] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 17:53:30] [33MWARN[39M: [TC20] ⚠️ Combined error: Invalid email or password
+[2025-09-09 17:53:35] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 17:53:35] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 17:53:37] [32MINFO[39M: [TC23] ✅ Doctor login successful
+[2025-09-09 17:53:39] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 17:53:39] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 17:53:41] [32MINFO[39M: [TC24] ✅ Scribe login successful
+[2025-09-09 18:01:45] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 18:01:45] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:01:47] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-09 18:01:49] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 18:01:49] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 18:01:50] [33MWARN[39M: [TC02] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:01:55] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 18:01:55] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:01:56] [33MWARN[39M: [TC03] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:02:02] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 18:02:02] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 18:02:02] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 18:02:04] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 18:02:04] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:02:04] [33MWARN[39M: [TC05] ⚠️ Password error: Password must be at least 8 characters.
+[2025-09-09 18:02:06] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 18:02:07] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 18:02:07] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 18:02:09] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 18:02:09] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 18:02:09] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 18:02:11] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 18:02:11] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 18:02:11] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 18:02:13] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 18:02:13] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 18:02:14] [33MWARN[39M: [TC11] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:02:20] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 18:02:20] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:02:21] [33MWARN[39M: [TC12] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:02:26] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 18:02:26] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:02:28] [32MINFO[39M: [TC15] ✅ Login successful
+[2025-09-09 18:02:31] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 18:02:31] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 18:02:46] [31MERROR[39M: [TC19] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 18:02:47] [32MINFO[39M: [TC19] Attempt 2: Navigated to login page
+[2025-09-09 18:02:47] [32MINFO[39M: [TC19] Attempt 2: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 18:02:49] [32MINFO[39M: [TC19] ✅ Login successful
+[2025-09-09 18:02:52] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 18:02:52] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:02:53] [33MWARN[39M: [TC20] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:02:58] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 18:02:58] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:03:00] [32MINFO[39M: [TC23] ✅ Login successful
+[2025-09-09 18:03:02] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 18:03:02] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 18:03:17] [31MERROR[39M: [TC24] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 18:03:18] [32MINFO[39M: [TC24] Attempt 2: Navigated to login page
+[2025-09-09 18:03:18] [32MINFO[39M: [TC24] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-09 18:03:20] [32MINFO[39M: [TC24] ✅ Login successful
+[2025-09-09 18:05:41] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 18:05:43] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:05:45] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-09 18:05:47] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 18:05:47] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 18:05:48] [33MWARN[39M: [TC02] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:05:50] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 18:05:50] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:05:51] [33MWARN[39M: [TC03] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:05:54] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 18:05:54] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 18:05:54] [33MWARN[39M: [TC04] ⚠️ Email error: Invalid email format
+[2025-09-09 18:05:56] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 18:05:56] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:05:56] [33MWARN[39M: [TC05] ⚠️ Password error: Password must be at least 8 characters.
+[2025-09-09 18:05:58] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 18:05:58] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 18:05:58] [33MWARN[39M: [TC06] ⚠️ Email error: Invalid email format
+[2025-09-09 18:06:01] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 18:06:01] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 18:06:01] [33MWARN[39M: [TC07] ⚠️ Email error: Invalid email format
+[2025-09-09 18:06:03] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 18:06:03] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 18:06:03] [33MWARN[39M: [TC10] ⚠️ Email error: Invalid email format
+[2025-09-09 18:06:06] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 18:06:06] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 18:06:06] [33MWARN[39M: [TC11] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:06:09] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 18:06:09] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:06:10] [33MWARN[39M: [TC12] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:06:12] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 18:06:12] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:06:14] [32MINFO[39M: [TC15] ✅ Login successful
+[2025-09-09 18:06:16] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 18:06:16] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 18:06:31] [31MERROR[39M: [TC19] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 18:06:32] [32MINFO[39M: [TC19] Attempt 2: Navigated to login page
+[2025-09-09 18:06:33] [32MINFO[39M: [TC19] Attempt 2: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 18:06:36] [32MINFO[39M: [TC19] ✅ Login successful
+[2025-09-09 18:06:38] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 18:06:38] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:06:39] [33MWARN[39M: [TC20] ⚠️ Combined error: Invalid email or password
+[2025-09-09 18:06:41] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 18:06:41] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:06:43] [32MINFO[39M: [TC23] ✅ Login successful
+[2025-09-09 18:06:45] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 18:06:45] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 18:07:00] [31MERROR[39M: [TC24] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 18:07:01] [32MINFO[39M: [TC24] Attempt 2: Navigated to login page
+[2025-09-09 18:07:01] [32MINFO[39M: [TC24] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-09 18:07:04] [32MINFO[39M: [TC24] ✅ Login successful
+[2025-09-09 18:09:46] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-09 18:09:47] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:09:49] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-09 18:09:51] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-09 18:09:51] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-09 18:09:54] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-09 18:09:54] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:09:56] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-09 18:09:56] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-09 18:09:58] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-09 18:09:58] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:10:01] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-09 18:10:01] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-09 18:10:03] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-09 18:10:03] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-09 18:10:05] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-09 18:10:05] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-09 18:10:07] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-09 18:10:07] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-09 18:10:11] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-09 18:10:11] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:10:14] [32MINFO[39M: [TC15] Attempt 1: Navigated to login page
+[2025-09-09 18:10:14] [32MINFO[39M: [TC15] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:10:16] [32MINFO[39M: [TC15] ✅ Login successful
+[2025-09-09 18:10:18] [32MINFO[39M: [TC19] Attempt 1: Navigated to login page
+[2025-09-09 18:10:18] [32MINFO[39M: [TC19] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 18:10:33] [31MERROR[39M: [TC19] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 18:10:33] [32MINFO[39M: [TC19] Attempt 2: Navigated to login page
+[2025-09-09 18:10:33] [32MINFO[39M: [TC19] Attempt 2: Submitted login with email: Testprovider@gmail.com
+[2025-09-09 18:10:35] [32MINFO[39M: [TC19] ✅ Login successful
+[2025-09-09 18:10:37] [32MINFO[39M: [TC20] Attempt 1: Navigated to login page
+[2025-09-09 18:10:38] [32MINFO[39M: [TC20] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-09 18:10:41] [32MINFO[39M: [TC23] Attempt 1: Navigated to login page
+[2025-09-09 18:10:41] [32MINFO[39M: [TC23] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-09 18:10:43] [32MINFO[39M: [TC23] ✅ Login successful
+[2025-09-09 18:10:45] [32MINFO[39M: [TC24] Attempt 1: Navigated to login page
+[2025-09-09 18:10:45] [32MINFO[39M: [TC24] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-09 18:11:00] [31MERROR[39M: [TC24] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected string: [32m"https://appv2.ezyscribe.com/[7mtasks[27m"[39m
+Received string: [31m"https://appv2.ezyscribe.com/[7mauth/login[27m"[39m
+Timeout: 15000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 15000ms[22m
+[2m    18 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-09 18:11:01] [32MINFO[39M: [TC24] Attempt 2: Navigated to login page
+[2025-09-09 18:11:01] [32MINFO[39M: [TC24] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-09 18:11:04] [32MINFO[39M: [TC24] ✅ Login successful
