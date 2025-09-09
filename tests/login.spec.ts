@@ -52,8 +52,9 @@ test.describe("Login Tests with Retry & Screenshot on Total Failure", () => {
               break;
 
             case "combinedError":
-              await page.waitForLoadState("networkidle");
-              await expect.poll(async () => await loginPage.getCombinedErrorMessage(), { timeout: 5000 }).not.toBe("");
+              await expect(loginPage.combinedError).toBeVisible({ timeout: 5000 });
+              const combinedError = await loginPage.getCombinedErrorMessage();
+              expect(combinedError).not.toBe("");
               break;
           }
 
