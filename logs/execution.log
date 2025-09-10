@@ -902,3 +902,57 @@ Call log:
 [2025-09-10 18:44:25] [32MINFO[39M: [TC24] Attempt 2: Navigated to login page
 [2025-09-10 18:44:25] [32MINFO[39M: [TC24] Attempt 2: Submitted login with email: testscribe@gmail.com
 [2025-09-10 18:44:28] [32MINFO[39M: [TC24] ✅ Login successful
+[2025-09-10 21:46:31] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-10 21:46:37] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-10 21:46:37] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-10 21:46:43] [32MINFO[39M: Theme toggled successfully
+[2025-09-10 21:46:43] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-10 21:46:46] [32MINFO[39M: Task search completed successfully
+[2025-09-10 21:46:46] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-10 21:46:50] [32MINFO[39M: Status filter applied successfully
+[2025-09-10 21:46:50] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-10 21:46:54] [32MINFO[39M: Priority filter applied successfully
+[2025-09-10 21:46:54] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-10 21:46:59] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-10 21:46:59] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-10 21:47:03] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-10 21:47:03] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-10 21:47:06] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-10 22:31:31] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-10 22:31:31] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-10 22:31:34] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-10 22:31:37] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-10 22:31:37] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-10 22:31:40] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-10 22:31:40] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-10 22:31:43] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-10 22:31:43] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-10 22:31:46] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-10 22:31:46] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-10 22:31:48] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-10 22:31:48] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-10 22:31:50] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-10 22:31:50] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-10 22:31:53] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-10 22:31:53] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-10 22:31:56] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-10 22:31:56] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-10 22:31:58] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-10 22:32:01] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-10 22:32:01] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-10 22:34:23] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-10 22:34:29] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-10 22:34:29] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-10 22:34:34] [32MINFO[39M: Theme toggled successfully
+[2025-09-10 22:34:34] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-10 22:34:39] [32MINFO[39M: Task search completed successfully
+[2025-09-10 22:34:39] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-10 22:34:43] [32MINFO[39M: Status filter applied successfully
+[2025-09-10 22:34:43] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-10 22:34:47] [32MINFO[39M: Priority filter applied successfully
+[2025-09-10 22:34:47] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-10 22:34:51] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-10 22:34:51] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-10 22:34:54] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-10 22:34:54] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-10 22:34:57] [32MINFO[39M: Column visibility toggled successfully
