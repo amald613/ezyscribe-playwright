@@ -9,9 +9,8 @@
   { "TCID": "TC08", "Email": "special@!#$.com", "Password": "special123", "ExpectedResult": "emailError" },
   { "TCID": "TC09", "Email": "verylongemail@exampletoolonglonglongdomain.com", "Password": "DocPass123", "ExpectedResult": "combinedError" },
   { "TCID": "TC10", "Email": "doctor@example.com", "Password": "passwordWithVeryLongText1234567890!@#", "ExpectedResult": "combinedError" },
-  
   { "TCID": "TC11", "Email": "Testprovider@gmail.com", "Password": "12345678", "ExpectedResult": "success_doctor" },
-  { "TCID": "TC12", "Email": "doctor@example.com", "Password": "DOCPASS123", "ExpectedResult": "combinedError" },
-
-  { "TCID": "TC13", "Email": "testscribe@gmail.com", "Password": "12345678", "ExpectedResult": "success_scribe" }
+  { "TCID": "TC12", "Email": "testscribe@gmail.com", "Password": "12345678", "ExpectedResult": "success_scribe" },
+  { "TCID": "TC13", "Email": "doctor@example.com", "Password": "DOCPASS123", "ExpectedResult": "combinedError" }
 ]
+
