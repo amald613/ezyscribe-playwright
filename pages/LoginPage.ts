@@ -64,7 +64,7 @@ export class LoginPage {
         } catch {
       // wait a bit and try once more
       await this.page.waitForTimeout(10000);
-      await expect(this.combinedError).toBeVisible({ timeout: 5000 });
+      await expect(this.combinedError).toBeVisible({ timeout: 50000 });
       return await this.combinedError.innerText().catch(() => "");
     }
   }

@@ -36,7 +36,7 @@ test.describe("Login Tests with Retry & Screenshot on Total Failure", () => {
           switch (data.ExpectedResult) {
             case "success_doctor":
             case "success_scribe":
-              await expect(page).toHaveURL('https://appv2.ezyscribe.com/tasks', { timeout: 15000 });
+              await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 30000 });
               logger.info(`[${data.TCID}] ✅ Login successful`);
               lastError = null; // passed, reset error
               break;
