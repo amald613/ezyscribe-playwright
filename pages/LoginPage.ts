@@ -10,6 +10,8 @@ export class LoginPage {
   readonly combinedError: Locator;
   readonly doctorDashboardText: Locator;
   readonly scribeDashboardText: Locator;
+  readonly forgotPassword: Locator;
+  readonly forgotPasswordMessage: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -26,6 +28,9 @@ export class LoginPage {
 
     // this.doctorDashboardText = page.getByRole('button', { name: 'Record' });
     this.doctorDashboardText = page.getByRole('heading', { name: 'Application error: a server-' });
+
+    this.forgotPassword = page.getByText('Forgot your password?');
+    this.forgotPasswordMessage = page.getByText('Check your email for the reset password link');
 
 
   }
@@ -85,5 +90,13 @@ export class LoginPage {
 
   async isScribeDashboardVisible() {
     return this.doctorDashboardText.isVisible();
+  }
+
+  async ForgotPassword(email:string){
+    await this.page.goto('https://appv2.ezyscribe.com');
+    await this.page.waitForLoadState("networkidle");
+    await this.emailInput.fill(email);
+    await this.forgotPassword.click();
+    await expect(this.forgotPasswordMessage).toBeVisible();
   }
 }

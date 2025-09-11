@@ -4,7 +4,7 @@ import { ScreenshotUtils } from "../utils/screenshot";
 import { logger } from "../utils/logger";
 import loginData from "../fixtures/users.json";
 
-test.describe("Login Tests with Retry & Screenshot on Total Failure", () => {
+test.describe("Login Tests", () => {
   const MAX_RETRIES = 3;
 
   for (const data of loginData) {
@@ -74,4 +74,9 @@ test.describe("Login Tests with Retry & Screenshot on Total Failure", () => {
       }
     });
   }
+  test('TC014 - Forgot Password', async ({page})=>{
+  const loginPage = new LoginPage(page);
+  await loginPage.ForgotPassword("testprovid@gmail.com");
+
+  })
 });
