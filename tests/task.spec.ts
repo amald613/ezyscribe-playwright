@@ -1,77 +1,71 @@
 import { test, expect } from "@playwright/test";
-import { LoginPage } from "../pages/LoginPage";
-import { ScreenshotUtils } from "../utils/screenshot";
-import { logger } from "../utils/logger";
-import loginData from "../fixtures/users.json";
+import TaskPage from "../pages/TaskPage";   // adjust path based on your project
+import { logInfo, logError } from "../utils/logger"; // import logger
 
-test.describe("Login Tests with Retry & Screenshot on Total Failure", () => {
-  const MAX_RETRIES = 3;
+test.describe("Task Dashboard Tests", () => {
+  let taskPage: TaskPage;
 
-  for (const data of loginData) {
-    test(`Login Test - ${data.TCID}`, async ({ page }) => {
-      const loginPage = new LoginPage(page);
-      let attempt = 0;
-      let lastError: Error | null = null;
+  test.beforeAll(async ({ browser }) => {
+    const context = await browser.newContext();
+    const page = await context.newPage();
+    taskPage = new TaskPage(page);
 
-      while (attempt < MAX_RETRIES) {
-        attempt++;
-        try {
-          await loginPage.goto();
-          logger.info(`[${data.TCID}] Attempt ${attempt}: Navigated to login page`);
+    logInfo("Navigating to EzyScribe and logging in");
+    await page.goto("https://appv2.ezyscribe.com"); 
+    await taskPage.login("testprovider@gmail.com", "12345678"); 
+    await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 30000 }); 
+    logInfo("Login successful, Task Dashboard loaded");
+  });
 
-          await loginPage.enterEmail(data.Email);
-          await loginPage.enterPassword(data.Password);
-          await loginPage.submit();
-          logger.info(`[${data.TCID}] Attempt ${attempt}: Submitted login with email: ${data.Email}`);
+  test("Toggle Theme (Light <-> Dark)", async () => {
+    logInfo("Test started: Toggle Theme (Light <-> Dark)");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.changeTheme();
+    logInfo("Theme toggled successfully");
+  });
 
-          // Check for "Too many requests" - wait and retry
-          const tooManyRequests = page.getByText('Too many requests. Please try');
-          if (await tooManyRequests.isVisible().catch(() => false)) {
-            logger.warn(`[${data.TCID}] Too many requests detected. Waiting 5 seconds before retry...`);
-            await page.waitForTimeout(5000);
-            continue;
-          }
+  test("Search Task by ID", async () => {
+    logInfo("Test started: Search Task by ID");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.serachFilter();
+    logInfo("Task search completed successfully");
+  });
 
-          // Normal assertions
-          switch (data.ExpectedResult) {
-            case "success_doctor":
-            case "success_scribe":
-              await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 30000 });
-              logger.info(`[${data.TCID}] ✅ Login successful`);
-              lastError = null; // passed, reset error
-              break;
+  test("Apply Status Filter - Completed", async () => {
+    logInfo("Test started: Apply Status Filter - Completed");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.selectStatusFilter("Completed");
+    logInfo("Status filter applied successfully");
+  });
 
-            case "emailError":
-              const emailError = await loginPage.getEmailErrorMessage();
-              expect(emailError).not.toBe("");
-              break;
+  test("Apply Priority Filter - Low", async () => {
+    logInfo("Test started: Apply Priority Filter - Low");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.selectPriorityFilter("Low");
+    logInfo("Priority filter applied successfully");
+  });
 
-            case "passwordError":
-              const passwordError = await loginPage.getPasswordErrorMessage();
-              expect(passwordError).not.toBe("");
-              break;
+  test("Sort Task IDs Ascending", async () => {
+    logInfo("Test started: Sort Task IDs Ascending");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.sort();
+    logInfo("Task IDs sorted successfully");
+  });
 
-            case "combinedError":
-              
-              const combinedError = await loginPage.getCombinedErrorMessage();
-              expect(combinedError).not.toBe("");
-              break;
-          }
+  test("Filter by Upload Date", async () => {
+    logInfo("Test started: Filter by Upload Date");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.clickResetButton();
+    await taskPage.clickUploadDateButton();
+    await taskPage.selectFromDate('Aug','2024','15');
+    await taskPage.selectToDate('Sep','2025','15');
+    logInfo("Upload date filter applied successfully");
+  });
 
-          // test passed, exit retry loop
-          break;
-
-        } catch (err) {
-          logger.error(`[${data.TCID}] ❌ Test failed on attempt ${attempt}: ${err.message}`);
-          lastError = err as Error;
-        }
-      }
-
-      // After all attempts, if still failed, take screenshot and throw error
-      if (lastError) {
-        await ScreenshotUtils.capture(page, `${data.TCID}_Failed_AllAttempts`);
-        throw lastError;
-      }
-    });
-  }
+  test("Toggle Column Visibility (View Filter)", async () => {
+    logInfo("Test started: Toggle Column Visibility (View Filter)");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.viewFilter('taskNo');
+    logInfo("Column visibility toggled successfully");
+  });
 });
