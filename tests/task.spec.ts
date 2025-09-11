@@ -68,4 +68,29 @@ test.describe("Task Dashboard Tests", () => {
     await taskPage.viewFilter('taskNo');
     logInfo("Column visibility toggled successfully");
   });
+
+   test("TP008 - Search Task by invalid ID", async () => {
+    logInfo("Test started: Search Task by ID");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.searchFilterInvalid("1231454451");
+    logInfo("Task search completed successfully");
+  });
+
+  test('TP009 - Filter Status: Completed or In Progress', async () => {
+  await taskPage.selectStatusFilterMultiple(['Completed', 'In Progress']);
+});
+
+  test('TP010 - Filter Priority: Medium or High', async () => {
+  await taskPage.selectPriorityFilterExcludeMultiple(['Medium', 'High']);
+});
+
+test('TP011 - Filter by Status Completed and Priority Medium', async () => {
+  await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+  await taskPage.filterByStatusAndPriority('Completed', 'Medium');
+});
+
+
+
+
+
 });

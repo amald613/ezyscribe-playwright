@@ -1391,3 +1391,17 @@ Call log:
 [2025-09-11 16:28:06] [32MINFO[39M: Upload date filter applied successfully
 [2025-09-11 16:28:06] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
 [2025-09-11 16:28:09] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-11 16:54:13] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 16:54:19] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 16:54:19] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 16:54:22] [32MINFO[39M: Task search completed successfully
+[2025-09-11 17:04:33] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 17:04:39] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 17:05:01] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 17:05:07] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 17:05:18] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 17:05:29] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 17:09:48] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 17:10:07] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 17:14:43] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 17:14:48] [32MINFO[39M: Login successful, Task Dashboard loaded

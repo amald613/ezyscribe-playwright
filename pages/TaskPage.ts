@@ -145,11 +145,93 @@ export default class TaskPage {
     }
   }
 
+  // In your Page Object
+async selectStatusFilterMultiple(allowedStatuses: (
+  'AI Processing' | 'AI Draft' | 'In Ehr' | 'In Progress' | 'Completed' | 'On Hold' | 'Pending'
+)[]) {
+  await this.statusFilter.click();
+
+  // Click all allowed statuses
+  for (const status of allowedStatuses) {
+    switch(status) {
+      case 'AI Processing': await this.statusAiProcessing.click(); break;
+      case 'AI Draft': await this.statusAiDraft.click(); break;
+      case 'In Ehr': await this.statusInEhr.click(); break;
+      case 'In Progress': await this.statusInProgress.click(); break;
+      case 'Completed': await this.statusCompleted.click(); break;
+      case 'On Hold': await this.statusOnHold.click(); break;
+      case 'Pending': await this.statusPending.click(); break;
+    }
+  }
+
+  // Wait for table to refresh
+  await this.page.waitForTimeout(1000);
+
+  // Get all visible statuses from table
+  const statuses = await this.statusColumnCells.allTextContents();
+  console.log('Statuses in table:', statuses);
+
+  // Assert that each row matches allowed statuses
+  for (const st of statuses) {
+    expect(
+      allowedStatuses.map(s => s.toLowerCase()).includes(st.trim().toLowerCase())
+    ).toBeTruthy();
+  }
+}
+
+
+  async filterByStatusAndPriority(
+  status: 'AI Processing' | 'AI Draft' | 'In Ehr' | 'In Progress' | 'Completed' | 'On Hold' | 'Pending',
+  priority: 'Low' | 'Medium' | 'High'
+) {
+  // Select Status
+  await this.statusFilter.click();
+  switch(status){
+    case 'AI Processing': await this.statusAiProcessing.click(); break;
+    case 'AI Draft': await this.statusAiDraft.click(); break;
+    case 'In Ehr': await this.statusInEhr.click(); break;
+    case 'In Progress': await this.statusInProgress.click(); break;
+    case 'Completed': await this.statusCompleted.click(); break;
+    case 'On Hold': await this.statusOnHold.click(); break;
+    case 'Pending': await this.statusPending.click(); break;
+  }
+
+  // Select Priority
+  await this.priorityBtn.click();
+  switch(priority){
+    case 'Low': await this.page.getByRole('option', { name: 'Low' }).click(); break;
+    case 'Medium': await this.page.getByRole('option', { name: 'Medium' }).click(); break;
+    case 'High': await this.page.getByRole('option', { name: 'High' }).click(); break;
+  }
+
+  // Wait for table to refresh
+  await this.page.waitForTimeout(1000);
+
+  // Get table values
+  const statuses = await this.statusColumnCells.allTextContents();
+  const priorities = await this.priorityColumn.allTextContents();
+
+  // Assert each row matches both status and priority
+  for(let i = 0; i < statuses.length; i++){
+    const st = statuses[i].trim().toLowerCase();
+    const pr = priorities[i].trim();
+    expect(st).toBe(status.toLowerCase());
+    expect(pr).toBe(priority);
+  }
+}
+
+
   async serachFilter() {
     await this.page.waitForLoadState('networkidle');
     const input = (await this.taskCellPick.innerText()).trim();
     await this.searchButton.fill(input);
     await expect(this.taskCellCheck).toHaveText(input, { timeout: 5000 });
+  }
+
+  async searchFilterInvalid(invalidInput:string){
+     await this.page.waitForLoadState('networkidle');
+     await this.searchButton.fill(invalidInput);
+     await expect(this.page.getByRole('cell', { name: 'No results.' })).toBeVisible();
   }
 
   async selectPriorityFilter(priority: 'Low' | 'Medium' | 'High') {
@@ -169,6 +251,30 @@ export default class TaskPage {
       expect(pr.trim()).toBe(priority);
     }
   }
+
+
+  
+async selectPriorityFilterExcludeMultiple(allowedPriorities: ('Low' | 'Medium' | 'High')[]) {
+  await this.priorityBtn.click();
+
+  // Click each allowed priority option
+  for (const p of allowedPriorities) {
+    await this.page.getByRole('option', { name: p }).click();
+  }
+
+  // Wait for table to refresh
+  await this.page.waitForTimeout(1000);
+
+  // Get all visible priorities in the table
+  const priorities = await this.priorityColumn.allTextContents();
+  console.log('Priorities in table:', priorities);
+
+  // Assert that each row matches allowed priorities
+  for (const pr of priorities) {
+    expect(allowedPriorities.includes(pr.trim() as 'Low' | 'Medium' | 'High')).toBeTruthy();
+  }
+}
+
 
   // 🔹 Updated sort() with empty table guard
   async sort() {
