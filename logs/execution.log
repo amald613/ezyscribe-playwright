@@ -1469,3 +1469,25 @@ Call log:
 [2025-09-11 19:25:48] [32MINFO[39M: Task IDs sorted successfully
 [2025-09-11 19:25:48] [32MINFO[39M: Test started: Theme persistence after refresh
 [2025-09-11 19:25:54] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-11 20:22:27] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 20:22:34] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 20:22:34] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-11 20:22:37] [32MINFO[39M: Theme toggled successfully
+[2025-09-11 20:22:37] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 20:22:42] [32MINFO[39M: Task search completed successfully
+[2025-09-11 20:22:42] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-11 20:22:46] [32MINFO[39M: Status filter applied successfully
+[2025-09-11 20:22:46] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-11 20:22:51] [32MINFO[39M: Priority filter applied successfully
+[2025-09-11 20:22:51] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 20:22:55] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 20:22:55] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-11 20:22:59] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-11 20:22:59] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-11 20:23:02] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-11 20:23:02] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 20:23:05] [32MINFO[39M: Task search completed successfully
+[2025-09-11 20:23:28] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 20:23:33] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 20:23:33] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-11 20:23:40] [32MINFO[39M: Theme persisted successfully after refresh
