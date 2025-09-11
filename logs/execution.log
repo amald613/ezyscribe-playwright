@@ -1443,3 +1443,29 @@ Call log:
 [2025-09-11 18:12:20] [32MINFO[39M: Column visibility toggled successfully
 [2025-09-11 18:12:20] [32MINFO[39M: Test started: Search Task by ID
 [2025-09-11 18:12:24] [32MINFO[39M: Task search completed successfully
+[2025-09-11 19:07:23] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 19:07:29] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 19:07:29] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 19:07:34] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 19:24:43] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 19:24:49] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 19:24:49] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-11 19:24:53] [32MINFO[39M: Theme toggled successfully
+[2025-09-11 19:24:53] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 19:24:57] [32MINFO[39M: Task search completed successfully
+[2025-09-11 19:24:57] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-11 19:25:02] [32MINFO[39M: Status filter applied successfully
+[2025-09-11 19:25:02] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-11 19:25:06] [32MINFO[39M: Priority filter applied successfully
+[2025-09-11 19:25:06] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 19:25:10] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 19:25:10] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-11 19:25:14] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-11 19:25:14] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-11 19:25:17] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-11 19:25:17] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 19:25:21] [32MINFO[39M: Task search completed successfully
+[2025-09-11 19:25:43] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 19:25:48] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 19:25:48] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-11 19:25:54] [32MINFO[39M: Theme persisted successfully after refresh

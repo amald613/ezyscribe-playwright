@@ -1,4 +1,4 @@
-import { Page, Locator,expect } from "@playwright/test";
+import { Page, Locator, expect } from "@playwright/test";
 
 export class LoginPage {
   readonly page: Page;
@@ -13,10 +13,10 @@ export class LoginPage {
 
   constructor(page: Page) {
     this.page = page;
-    this.emailInput = page.getByRole('textbox', { name: 'Email' });         
-    this.passwordInput = page.locator('input[name="password"]');   
-    this.submitButton = page.getByRole('button', { name: 'Submit' });     
-     // Field-specific error messages
+    this.emailInput = page.getByRole('textbox', { name: 'Email' });
+    this.passwordInput = page.locator('input[name="password"]');
+    this.submitButton = page.getByRole('button', { name: 'Submit' });
+    // Field-specific error messages
     this.emailError = page.getByText('Invalid email format');
     this.passwordError = page.getByText('Password must be at least 8');
 
@@ -27,11 +27,11 @@ export class LoginPage {
     // this.doctorDashboardText = page.getByRole('button', { name: 'Record' });
     this.doctorDashboardText = page.getByRole('heading', { name: 'Application error: a server-' });
 
-   
+
   }
 
   async goto() {
-    await this.page.goto("https://appv2.ezyscribe.com"); 
+    await this.page.goto("https://appv2.ezyscribe.com");
   }
 
   async enterEmail(email: string) {
@@ -47,7 +47,7 @@ export class LoginPage {
   }
 
 
- // Error message getters
+  // Error message getters
   async getEmailErrorMessage() {
     return await this.emailError.innerText().catch(() => "");
   }
@@ -58,10 +58,10 @@ export class LoginPage {
 
   async getCombinedErrorMessage() {
     await this.page.waitForLoadState("networkidle");
-     try {
-        await expect(this.combinedError).toBeVisible({ timeout: 5000 });
-        return await this.combinedError.innerText().catch(() => "");
-        } catch {
+    try {
+      await expect(this.combinedError).toBeVisible({ timeout: 5000 });
+      return await this.combinedError.innerText().catch(() => "");
+    } catch {
       // wait a bit and try once more
       await this.submitButton.click();
       await this.page.waitForTimeout(10000);

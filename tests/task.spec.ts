@@ -11,15 +11,15 @@ test.describe("Task Dashboard Tests", () => {
     taskPage = new TaskPage(page);
 
     logInfo("Navigating to EzyScribe and logging in");
-    await page.goto("https://appv2.ezyscribe.com"); 
-    await taskPage.login("testprovider@gmail.com", "12345678"); 
-try {
-    await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 50000 });
-} catch (error) {
-    console.warn("URL check failed, waiting for theme toggle button instead...");
-    // Wait for the theme button to be visible
-    await taskPage.themeButton.waitFor({ state: 'visible', timeout: 10000 });
-}
+    await page.goto("https://appv2.ezyscribe.com");
+    await taskPage.login("testprovider@gmail.com", "12345678");
+    try {
+      await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 50000 });
+    } catch (error) {
+      console.warn("URL check failed, waiting for theme toggle button instead...");
+      // Wait for the theme button to be visible
+      await taskPage.themeButton.waitFor({ state: 'visible', timeout: 10000 });
+    }
 
     logInfo("Login successful, Task Dashboard loaded");
   });
@@ -64,8 +64,8 @@ try {
     await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
     await taskPage.clickResetButton();
     await taskPage.clickUploadDateButton();
-    await taskPage.selectFromDate('Aug','2024','15');
-    await taskPage.selectToDate('Sep','2025','15');
+    await taskPage.selectFromDate('Aug', '2024', '15');
+    await taskPage.selectToDate('Sep', '2025', '15');
     logInfo("Upload date filter applied successfully");
   });
 
@@ -83,20 +83,34 @@ try {
     logInfo("Task search completed successfully");
   });
 
-test('TP009 - Filter Status: Completed or In Progress', async () => {
-  await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
-  await taskPage.selectStatusFilterMultiple(['Completed', 'In Progress']);
-});
+  test('TP009 - Filter Status: Completed or In Progress', async () => {
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.selectStatusFilterMultiple(['Completed', 'In Progress']);
+  });
 
   test('TP010 - Filter Priority: Medium or High', async () => {
-  await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
-  await taskPage.selectPriorityFilterExcludeMultiple(['Medium', 'High']);
-});
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.selectPriorityFilterExcludeMultiple(['Medium', 'High']);
+  });
 
-test('TP011 - Filter by Status Completed and Priority Medium', async () => {
-  await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
-  await taskPage.filterByStatusAndPriority('Completed', 'Medium');
-});
+  test('TP011 - Filter by Status Completed and Priority Medium', async () => {
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.filterByStatusAndPriority('Completed', 'Medium');
+  });
+
+  test("TP012 - Sort Task IDs Descending", async () => {
+    logInfo("Test started: Sort Task IDs Ascending");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.sortDescending();
+    logInfo("Task IDs sorted successfully");
+  });
+
+  test("TP013 - Theme persistence after refresh", async () => {
+    logInfo("Test started: Theme persistence after refresh");
+    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    await taskPage.verifyThemePersistence();
+    logInfo("Theme persisted successfully after refresh");
+  });
 
 
 

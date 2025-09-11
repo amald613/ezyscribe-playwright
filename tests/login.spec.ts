@@ -52,7 +52,7 @@ test.describe("Login Tests with Retry & Screenshot on Total Failure", () => {
               break;
 
             case "combinedError":
-              
+
               const combinedError = await loginPage.getCombinedErrorMessage();
               expect(combinedError).not.toBe("");
               break;
