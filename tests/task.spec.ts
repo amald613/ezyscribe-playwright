@@ -19,7 +19,7 @@ test.describe("Task Dashboard Tests", () => {
 
   test("TP001 - Toggle Theme (Light <-> Dark)", async () => {
     logInfo("Test started: Toggle Theme (Light <-> Dark)");
-    await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
+    // await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
     await taskPage.changeTheme();
     logInfo("Theme toggled successfully");
   });
