@@ -56,19 +56,26 @@ export class LoginPage {
     return await this.passwordError.innerText().catch(() => "");
   }
 
-  async getCombinedErrorMessage() {
-    await this.page.waitForLoadState("networkidle");
+ async getCombinedErrorMessage() {
+  await this.page.waitForLoadState("networkidle");
+
+  for (let attempt = 0; attempt < 2; attempt++) {
     try {
       await expect(this.combinedError).toBeVisible({ timeout: 5000 });
-      return await this.combinedError.innerText().catch(() => "");
-    } catch {
-      // wait a bit and try once more
-      await this.submitButton.click();
-      await this.page.waitForTimeout(10000);
-      await expect(this.combinedError).toBeVisible({ timeout: 50000 });
-      return await this.combinedError.innerText().catch(() => "");
+      return await this.combinedError.innerText();
+    } catch (err) {
+      if (attempt === 0) {
+        // Retry once
+        await this.submitButton.click();
+        await this.page.waitForTimeout(1000); // small buffer
+      } else {
+        throw err; // give up after 2nd failure
+      }
     }
   }
+
+  return "";
+}
 
 
 
