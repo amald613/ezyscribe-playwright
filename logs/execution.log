@@ -1405,3 +1405,41 @@ Call log:
 [2025-09-11 17:10:07] [32MINFO[39M: Login successful, Task Dashboard loaded
 [2025-09-11 17:14:43] [32MINFO[39M: Navigating to EzyScribe and logging in
 [2025-09-11 17:14:48] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 18:01:39] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 18:01:45] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 18:01:45] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-11 18:01:48] [32MINFO[39M: Theme toggled successfully
+[2025-09-11 18:01:48] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 18:01:52] [32MINFO[39M: Task search completed successfully
+[2025-09-11 18:01:52] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-11 18:01:57] [32MINFO[39M: Status filter applied successfully
+[2025-09-11 18:01:57] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-11 18:02:01] [32MINFO[39M: Priority filter applied successfully
+[2025-09-11 18:02:01] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 18:02:05] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 18:02:05] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-11 18:02:09] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-11 18:02:09] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-11 18:02:12] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-11 18:02:12] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 18:02:16] [32MINFO[39M: Task search completed successfully
+[2025-09-11 18:02:22] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 18:02:28] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 18:11:46] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-11 18:11:52] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-11 18:11:52] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-11 18:11:56] [32MINFO[39M: Theme toggled successfully
+[2025-09-11 18:11:56] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 18:12:00] [32MINFO[39M: Task search completed successfully
+[2025-09-11 18:12:00] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-11 18:12:04] [32MINFO[39M: Status filter applied successfully
+[2025-09-11 18:12:04] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-11 18:12:08] [32MINFO[39M: Priority filter applied successfully
+[2025-09-11 18:12:08] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-11 18:12:13] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-11 18:12:13] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-11 18:12:17] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-11 18:12:17] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-11 18:12:20] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-11 18:12:20] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-11 18:12:24] [32MINFO[39M: Task search completed successfully

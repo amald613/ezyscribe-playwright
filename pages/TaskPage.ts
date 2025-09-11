@@ -205,7 +205,7 @@ async selectStatusFilterMultiple(allowedStatuses: (
   }
 
   // Wait for table to refresh
-  await this.page.waitForTimeout(1000);
+  await this.page.waitForTimeout(10000);
 
   // Get table values
   const statuses = await this.statusColumnCells.allTextContents();

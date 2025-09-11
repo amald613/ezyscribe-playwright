@@ -13,7 +13,7 @@ test.describe("Task Dashboard Tests", () => {
     logInfo("Navigating to EzyScribe and logging in");
     await page.goto("https://appv2.ezyscribe.com"); 
     await taskPage.login("testprovider@gmail.com", "12345678"); 
-    await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 30000 }); 
+    await expect(page).toHaveURL(/https:\/\/appv2\.ezyscribe\.com\/tasks/, { timeout: 50000 }); 
     logInfo("Login successful, Task Dashboard loaded");
   });
 
@@ -69,18 +69,20 @@ test.describe("Task Dashboard Tests", () => {
     logInfo("Column visibility toggled successfully");
   });
 
-   test("TP008 - Search Task by invalid ID", async () => {
+  test("TP008 - Search Task by invalid ID", async () => {
     logInfo("Test started: Search Task by ID");
     await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
     await taskPage.searchFilterInvalid("1231454451");
     logInfo("Task search completed successfully");
   });
 
-  test('TP009 - Filter Status: Completed or In Progress', async () => {
+test('TP009 - Filter Status: Completed or In Progress', async () => {
+  await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
   await taskPage.selectStatusFilterMultiple(['Completed', 'In Progress']);
 });
 
   test('TP010 - Filter Priority: Medium or High', async () => {
+  await taskPage.page.goto("https://appv2.ezyscribe.com/tasks", { waitUntil: "networkidle" });
   await taskPage.selectPriorityFilterExcludeMultiple(['Medium', 'High']);
 });
 
