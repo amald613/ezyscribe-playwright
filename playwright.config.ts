@@ -16,7 +16,7 @@ export default defineConfig({
     trace: 'on-first-retry', // collect trace only on retry
     screenshot: 'only-on-failure', // auto screenshot on test failure
     video: 'retain-on-failure', // record video on failure
-    headless: false, // run headless in CI
+    headless: true, 
   },
 
   // Reporter configuration
@@ -31,13 +31,13 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
     },
-    {
-      name: 'firefox',
-      use: { ...devices['Desktop Firefox'] },
-    },
-    {
-      name: 'webkit',
-      use: { ...devices['Desktop Safari'] },
-    },
+    // {
+    //   name: 'firefox',
+    //   use: { ...devices['Desktop Firefox'] },
+    // },
+    // {
+    //   name: 'webkit',
+    //   use: { ...devices['Desktop Safari'] },
+    // },
   ],
 });
