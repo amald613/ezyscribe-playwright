@@ -1554,3 +1554,768 @@ Call log:
 [2025-09-11 22:35:41] [32MINFO[39M: [TC12] ✅ Login successful
 [2025-09-11 22:35:44] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
 [2025-09-11 22:35:44] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:01:37] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 17:01:37] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 17:01:37] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 17:01:37] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 17:01:37] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:01:37] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:01:38] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 17:01:38] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:01:42] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 17:01:42] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 17:01:42] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 17:01:42] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 17:01:42] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:01:43] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 17:01:43] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 17:01:46] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 17:01:46] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:01:46] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 17:01:46] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 17:01:47] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 17:01:47] [32MINFO[39M: [TC09] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:01:47] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-12 17:01:47] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 17:01:50] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 17:01:50] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:01:54] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 17:01:54] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:01:56] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 17:01:56] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:01:58] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:02:03] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:02:09] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:02:17] [31MERROR[39M: [TC11] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/https:\/\/appv2\.ezyscribe\.com\/tasks/[39m
+Received string:  [31m"https://appv2.ezyscribe.com/auth/login"[39m
+Timeout: 30000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 30000ms[22m
+[2m    33 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-12 17:02:18] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:02:18] [32MINFO[39M: [TC11] Attempt 2: Navigated to login page
+[2025-09-12 17:02:18] [32MINFO[39M: [TC11] Attempt 2: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 17:02:21] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-12 17:02:22] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:02:23] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:02:28] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:02:28] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 17:02:34] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-12 17:02:37] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:02:40] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 17:02:40] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:02:42] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:02:42] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 17:02:46] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 17:02:46] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:02:48] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:02:48] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 17:02:49] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 17:02:49] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:02:50] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 17:02:50] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:02:51] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 17:02:51] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:02:51] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:02:52] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 17:02:54] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 17:02:55] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:02:55] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 17:02:56] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 17:02:58] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 17:02:59] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 17:02:59] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 17:03:00] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 17:03:02] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 17:03:03] [32MINFO[39M: [TC09] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:03:03] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 17:03:03] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:03:07] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-12 17:03:07] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:03:07] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 17:03:07] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 17:03:08] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 17:03:09] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:03:10] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-12 17:03:10] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:03:14] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 17:03:14] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:03:26] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:03:26] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:03:31] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:03:31] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 17:03:33] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:03:33] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 17:03:35] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 17:03:36] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 17:03:36] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:03:39] [31MERROR[39M: [TC12] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/https:\/\/appv2\.ezyscribe\.com\/tasks/[39m
+Received string:  [31m"https://appv2.ezyscribe.com/auth/login"[39m
+Timeout: 30000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 30000ms[22m
+[2m    33 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-12 17:03:39] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:03:39] [32MINFO[39M: [TC12] Attempt 2: Navigated to login page
+[2025-09-12 17:03:40] [32MINFO[39M: [TC12] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:03:41] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:03:41] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 17:03:45] [32MINFO[39M: Status filter applied successfully
+[2025-09-12 17:03:45] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 17:03:45] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:03:45] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:03:49] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 17:03:50] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:03:51] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:03:51] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 17:03:55] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-12 17:03:55] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 17:03:56] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:03:59] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-12 17:03:59] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:04:03] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:04:03] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:04:03] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:04:03] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 17:04:10] [31MERROR[39M: [TC12] ❌ Test failed on attempt 2: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/https:\/\/appv2\.ezyscribe\.com\/tasks/[39m
+Received string:  [31m"https://appv2.ezyscribe.com/auth/login"[39m
+Timeout: 30000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 30000ms[22m
+[2m    33 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-12 17:04:10] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:04:10] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 17:04:11] [32MINFO[39M: [TC12] Attempt 3: Navigated to login page
+[2025-09-12 17:04:11] [32MINFO[39M: [TC12] Attempt 3: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:04:14] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 17:04:18] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-12 17:04:21] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:04:22] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:04:25] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 17:04:25] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 17:04:26] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:04:26] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:04:26] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:04:27] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:04:27] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 17:04:31] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-12 17:04:31] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:04:33] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 17:04:34] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:04:34] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:04:38] [31MERROR[39M: [TC02] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:04:38] [32MINFO[39M: [TC02] Attempt 2: Navigated to login page
+[2025-09-12 17:04:39] [32MINFO[39M: [TC02] Attempt 2: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:04:40] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 17:04:40] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 17:04:45] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 17:04:45] [31MERROR[39M: [TC03] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:04:46] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 17:04:46] [32MINFO[39M: [TC03] Attempt 2: Navigated to login page
+[2025-09-12 17:04:46] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 17:04:47] [32MINFO[39M: [TC03] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 17:04:47] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:04:50] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 17:04:51] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 17:04:52] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 17:04:53] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 17:04:54] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 17:04:55] [32MINFO[39M: [TC09] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:04:56] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 17:04:56] [31MERROR[39M: [TC01] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/https:\/\/appv2\.ezyscribe\.com\/tasks/[39m
+Received string:  [31m"https://appv2.ezyscribe.com/auth/login"[39m
+Timeout: 30000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 30000ms[22m
+[2m    33 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-12 17:04:56] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:04:57] [32MINFO[39M: [TC01] Attempt 2: Navigated to login page
+[2025-09-12 17:04:57] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-12 17:04:57] [32MINFO[39M: [TC01] Attempt 2: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:04:58] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 17:05:00] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 17:05:01] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-12 17:05:05] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 17:05:06] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 17:05:06] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:05:06] [31MERROR[39M: [TC09] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:05:06] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:05:07] [32MINFO[39M: [TC09] Attempt 2: Navigated to login page
+[2025-09-12 17:05:07] [32MINFO[39M: [TC09] Attempt 2: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:05:08] [31MERROR[39M: [TC10] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:05:09] [32MINFO[39M: [TC10] Attempt 2: Navigated to login page
+[2025-09-12 17:05:09] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 17:05:09] [32MINFO[39M: [TC10] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 17:05:16] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:05:18] [31MERROR[39M: [TC13] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:05:19] [32MINFO[39M: [TC13] Attempt 2: Navigated to login page
+[2025-09-12 17:05:19] [32MINFO[39M: [TC13] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 17:05:20] [31MERROR[39M: [TC09] ❌ Test failed on attempt 2: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:05:20] [32MINFO[39M: [TC09] Attempt 3: Navigated to login page
+[2025-09-12 17:05:21] [32MINFO[39M: [TC09] Attempt 3: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:05:21] [31MERROR[39M: [TC10] ❌ Test failed on attempt 2: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:05:22] [32MINFO[39M: [TC10] Attempt 3: Navigated to login page
+[2025-09-12 17:05:22] [32MINFO[39M: [TC10] Attempt 3: Submitted login with email: doctor@example.com
+[2025-09-12 17:05:23] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:05:24] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:05:25] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:06:11] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:06:11] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 17:06:14] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 17:06:14] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:06:18] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:06:18] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:06:19] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:06:20] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:06:20] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 17:06:24] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-12 17:06:30] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:06:30] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 17:06:36] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:06:37] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:06:49] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:07:30] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:07:30] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 17:07:31] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:07:44] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:07:44] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 17:07:48] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:07:49] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:07:57] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:08:00] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:08:43] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:08:43] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 17:08:55] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:08:55] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:09:00] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:09:56] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:09:56] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:15:58] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 17:15:58] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 17:15:58] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 17:15:58] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 17:15:59] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 17:15:59] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:15:59] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:15:59] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:16:03] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 17:16:04] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 17:16:04] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:16:06] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 17:16:06] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 17:16:06] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 17:16:07] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 17:16:08] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 17:16:08] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 17:16:08] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 17:16:09] [32MINFO[39M: [TC09] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:16:10] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 17:16:11] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:16:11] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-12 17:16:11] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 17:16:12] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 17:16:13] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:16:14] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-12 17:16:16] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 17:16:16] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 17:16:18] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:16:18] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:16:21] [31MERROR[39M: [TC09] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:16:21] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:16:22] [32MINFO[39M: [TC09] Attempt 2: Navigated to login page
+[2025-09-12 17:16:22] [32MINFO[39M: [TC09] Attempt 2: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:16:24] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:16:27] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:16:27] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:16:30] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:16:31] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:16:31] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 17:16:34] [31MERROR[39M: [TC09] ❌ Test failed on attempt 2: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:16:34] [32MINFO[39M: [TC09] Attempt 3: Navigated to login page
+[2025-09-12 17:16:35] [32MINFO[39M: [TC09] Attempt 3: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:16:35] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-12 17:16:35] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 17:16:38] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-12 17:16:38] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:16:43] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:16:44] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:16:50] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:16:50] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 17:16:52] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 17:16:52] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:16:53] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:16:55] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 17:16:57] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-12 17:16:58] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:16:59] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 17:17:00] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:17:06] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 17:17:08] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 17:17:08] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 17:17:08] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:17:11] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 17:17:11] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:17:11] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 17:17:12] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 17:17:12] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 17:17:14] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 17:17:14] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:17:16] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 17:17:17] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 17:17:17] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 17:17:17] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 17:17:18] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:17:21] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 17:17:22] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 17:17:31] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:17:31] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 17:17:36] [31MERROR[39M: [TC09] ❌ Test failed on attempt 1: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Submit' })[22m
+[2m    - locator resolved to <button type="submit" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:cursor-p…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[2025-09-12 17:17:37] [31MERROR[39M: [TC10] ❌ Test failed on attempt 1: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Submit' })[22m
+[2m    - locator resolved to <button type="submit" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:cursor-p…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[2025-09-12 17:17:37] [32MINFO[39M: [TC09] Attempt 2: Navigated to login page
+[2025-09-12 17:17:37] [32MINFO[39M: [TC10] Attempt 2: Navigated to login page
+[2025-09-12 17:17:50] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:17:52] [31MERROR[39M: [TC09] ❌ Test failed on attempt 2: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Submit' })[22m
+[2m    - locator resolved to <button type="submit" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:cursor-p…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing click action[22m
+
+[2025-09-12 17:17:53] [31MERROR[39M: [TC10] ❌ Test failed on attempt 2: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Submit' })[22m
+[2m    - locator resolved to <button type="submit" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:cursor-p…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[2025-09-12 17:17:53] [32MINFO[39M: [TC09] Attempt 3: Navigated to login page
+[2025-09-12 17:17:53] [32MINFO[39M: [TC10] Attempt 3: Navigated to login page
+[2025-09-12 17:17:56] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:17:56] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 17:18:00] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 17:18:07] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 17:18:08] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:18:08] [31MERROR[39M: [TC09] ❌ Test failed on attempt 3: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Submit' })[22m
+[2m    - locator resolved to <button type="submit" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:cursor-p…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[2025-09-12 17:18:08] [31MERROR[39M: [TC10] ❌ Test failed on attempt 3: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('button', { name: 'Submit' })[22m
+[2m    - locator resolved to <button type="submit" data-slot="button" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive hover:cursor-p…>…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+
+[2025-09-12 17:18:11] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 17:18:12] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:18:18] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:18:18] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 17:18:19] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 17:18:22] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 17:18:22] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:18:22] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:18:22] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:18:26] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:18:26] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 17:18:47] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:18:54] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:18:54] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 17:18:58] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 17:18:58] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:19:05] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:19:05] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 17:19:12] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-12 17:19:15] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:19:15] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:19:18] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 17:19:18] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 17:19:21] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 17:19:24] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 17:19:25] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 17:19:26] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 17:19:27] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:19:30] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 17:19:31] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 17:19:34] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:19:35] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 17:19:36] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:19:36] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:19:38] [31MERROR[39M: [TC03] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:19:39] [32MINFO[39M: [TC03] Attempt 2: Navigated to login page
+[2025-09-12 17:19:40] [32MINFO[39M: [TC03] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 17:19:40] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:19:42] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 17:19:43] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 17:19:43] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:19:43] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 17:19:48] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 17:19:49] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 17:19:50] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 17:19:51] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 17:19:51] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:19:54] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 17:19:55] [32MINFO[39M: [TC09] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:19:56] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 17:19:56] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:19:58] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:19:58] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 17:20:01] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-12 17:20:02] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:20:05] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:20:07] [31MERROR[39M: [TC09] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:20:07] [32MINFO[39M: [TC09] Attempt 2: Navigated to login page
+[2025-09-12 17:20:08] [31MERROR[39M: [TC10] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:20:08] [32MINFO[39M: [TC09] Attempt 2: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 17:20:08] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:20:09] [32MINFO[39M: [TC10] Attempt 2: Navigated to login page
+[2025-09-12 17:20:09] [32MINFO[39M: [TC10] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 17:20:12] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-12 17:20:13] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 17:20:13] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:20:15] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-12 17:20:17] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:20:17] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 17:20:17] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:20:18] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 17:20:18] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 17:20:23] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:20:30] [31MERROR[39M: [TC13] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 17:20:31] [32MINFO[39M: [TC13] Attempt 2: Navigated to login page
+[2025-09-12 17:20:31] [32MINFO[39M: [TC13] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 17:20:31] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:20:31] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:20:35] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:20:37] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 17:20:37] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 17:20:44] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-12 17:20:44] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 17:20:46] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:20:47] [31MERROR[39M: [TC12] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/https:\/\/appv2\.ezyscribe\.com\/tasks/[39m
+Received string:  [31m"https://appv2.ezyscribe.com/auth/login"[39m
+Timeout: 30000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 30000ms[22m
+[2m    33 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-12 17:20:48] [32MINFO[39M: [TC12] Attempt 2: Navigated to login page
+[2025-09-12 17:20:49] [32MINFO[39M: [TC12] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-12 17:20:53] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 17:20:53] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:20:54] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:20:54] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:21:01] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:21:01] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 17:21:11] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:21:11] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 17:21:15] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 17:21:15] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 17:21:29] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:21:31] [32MINFO[39M: Task search completed successfully
+[2025-09-12 17:21:31] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 17:21:47] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:21:50] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 17:21:55] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:21:58] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 17:21:58] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 17:22:04] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 17:22:16] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 17:22:22] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 18:07:14] [32MINFO[39M: [TC01] Attempt 1: Navigated to login page
+[2025-09-12 18:07:14] [32MINFO[39M: [TC01] Attempt 1: Submitted login with email: testprovider@gmail.com
+[2025-09-12 18:07:17] [32MINFO[39M: [TC01] ✅ Login successful
+[2025-09-12 18:07:21] [32MINFO[39M: [TC02] Attempt 1: Navigated to login page
+[2025-09-12 18:07:22] [32MINFO[39M: [TC02] Attempt 1: Submitted login with email: wrongemail@example.com
+[2025-09-12 18:07:26] [32MINFO[39M: [TC03] Attempt 1: Navigated to login page
+[2025-09-12 18:07:26] [32MINFO[39M: [TC03] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 18:07:38] [31MERROR[39M: [TC03] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 18:07:38] [32MINFO[39M: [TC03] Attempt 2: Navigated to login page
+[2025-09-12 18:07:39] [32MINFO[39M: [TC03] Attempt 2: Submitted login with email: doctor@example.com
+[2025-09-12 18:07:44] [32MINFO[39M: [TC04] Attempt 1: Navigated to login page
+[2025-09-12 18:07:44] [32MINFO[39M: [TC04] Attempt 1: Submitted login with email: 
+[2025-09-12 18:07:47] [32MINFO[39M: [TC05] Attempt 1: Navigated to login page
+[2025-09-12 18:07:47] [32MINFO[39M: [TC05] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 18:07:50] [32MINFO[39M: [TC06] Attempt 1: Navigated to login page
+[2025-09-12 18:07:50] [32MINFO[39M: [TC06] Attempt 1: Submitted login with email: 
+[2025-09-12 18:07:53] [32MINFO[39M: [TC07] Attempt 1: Navigated to login page
+[2025-09-12 18:07:54] [32MINFO[39M: [TC07] Attempt 1: Submitted login with email: doctor@@example
+[2025-09-12 18:07:56] [32MINFO[39M: [TC08] Attempt 1: Navigated to login page
+[2025-09-12 18:07:57] [32MINFO[39M: [TC08] Attempt 1: Submitted login with email: special@!#$.com
+[2025-09-12 18:07:59] [32MINFO[39M: [TC09] Attempt 1: Navigated to login page
+[2025-09-12 18:08:00] [32MINFO[39M: [TC09] Attempt 1: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 18:08:12] [31MERROR[39M: [TC09] ❌ Test failed on attempt 1: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m failed
+
+Locator:  getByText('Invalid email or password')
+Expected: visible
+Received: <element(s) not found>
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toBeVisible" with timeout 5000ms[22m
+[2m  - waiting for getByText('Invalid email or password')[22m
+
+[2025-09-12 18:08:12] [32MINFO[39M: [TC09] Attempt 2: Navigated to login page
+[2025-09-12 18:08:13] [32MINFO[39M: [TC09] Attempt 2: Submitted login with email: verylongemail@exampletoolonglonglongdomain.com
+[2025-09-12 18:08:18] [32MINFO[39M: [TC10] Attempt 1: Navigated to login page
+[2025-09-12 18:08:18] [32MINFO[39M: [TC10] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 18:08:22] [32MINFO[39M: [TC11] Attempt 1: Navigated to login page
+[2025-09-12 18:08:23] [32MINFO[39M: [TC11] Attempt 1: Submitted login with email: Testprovider@gmail.com
+[2025-09-12 18:08:26] [32MINFO[39M: [TC11] ✅ Login successful
+[2025-09-12 18:08:29] [32MINFO[39M: [TC12] Attempt 1: Navigated to login page
+[2025-09-12 18:08:29] [32MINFO[39M: [TC12] Attempt 1: Submitted login with email: testscribe@gmail.com
+[2025-09-12 18:08:59] [31MERROR[39M: [TC12] ❌ Test failed on attempt 1: [2mexpect([22m[31mpage[39m[2m).[22mtoHaveURL[2m([22m[32mexpected[39m[2m)[22m failed
+
+Expected pattern: [32m/https:\/\/appv2\.ezyscribe\.com\/tasks/[39m
+Received string:  [31m"https://appv2.ezyscribe.com/auth/login"[39m
+Timeout: 30000ms
+
+Call log:
+[2m  - Expect "toHaveURL" with timeout 30000ms[22m
+[2m    33 × unexpected value "https://appv2.ezyscribe.com/auth/login"[22m
+
+[2025-09-12 18:09:00] [32MINFO[39M: [TC12] Attempt 2: Navigated to login page
+[2025-09-12 18:09:00] [32MINFO[39M: [TC12] Attempt 2: Submitted login with email: testscribe@gmail.com
+[2025-09-12 18:09:03] [32MINFO[39M: [TC12] ✅ Login successful
+[2025-09-12 18:09:07] [32MINFO[39M: [TC13] Attempt 1: Navigated to login page
+[2025-09-12 18:09:07] [32MINFO[39M: [TC13] Attempt 1: Submitted login with email: doctor@example.com
+[2025-09-12 18:10:06] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 18:10:14] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 18:10:14] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 18:10:19] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 18:10:19] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 18:10:24] [32MINFO[39M: Task search completed successfully
+[2025-09-12 18:10:24] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 18:10:29] [32MINFO[39M: Status filter applied successfully
+[2025-09-12 18:10:29] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 18:10:34] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 18:10:34] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 18:10:39] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 18:10:39] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 18:10:46] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-12 18:10:46] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 18:10:49] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 18:10:56] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 18:10:56] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 18:11:02] [32MINFO[39M: Task search completed successfully
+[2025-09-12 18:11:30] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 18:11:35] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 18:11:35] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 18:11:43] [32MINFO[39M: Theme persisted successfully after refresh
+[2025-09-12 18:12:21] [32MINFO[39M: Navigating to EzyScribe and logging in
+[2025-09-12 18:12:27] [32MINFO[39M: Login successful, Task Dashboard loaded
+[2025-09-12 18:12:27] [32MINFO[39M: Test started: Toggle Theme (Light <-> Dark)
+[2025-09-12 18:12:31] [32MINFO[39M: Theme toggled successfully
+[2025-09-12 18:12:31] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 18:12:35] [32MINFO[39M: Task search completed successfully
+[2025-09-12 18:12:35] [32MINFO[39M: Test started: Apply Status Filter - Completed
+[2025-09-12 18:12:39] [32MINFO[39M: Status filter applied successfully
+[2025-09-12 18:12:39] [32MINFO[39M: Test started: Apply Priority Filter - Low
+[2025-09-12 18:12:43] [32MINFO[39M: Priority filter applied successfully
+[2025-09-12 18:12:43] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 18:12:47] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 18:12:47] [32MINFO[39M: Test started: Filter by Upload Date
+[2025-09-12 18:12:51] [32MINFO[39M: Upload date filter applied successfully
+[2025-09-12 18:12:51] [32MINFO[39M: Test started: Toggle Column Visibility (View Filter)
+[2025-09-12 18:12:54] [32MINFO[39M: Column visibility toggled successfully
+[2025-09-12 18:12:54] [32MINFO[39M: Test started: Search Task by ID
+[2025-09-12 18:12:58] [32MINFO[39M: Task search completed successfully
+[2025-09-12 18:13:19] [32MINFO[39M: Test started: Sort Task IDs Ascending
+[2025-09-12 18:13:23] [32MINFO[39M: Task IDs sorted successfully
+[2025-09-12 18:13:23] [32MINFO[39M: Test started: Theme persistence after refresh
+[2025-09-12 18:13:29] [32MINFO[39M: Theme persisted successfully after refresh

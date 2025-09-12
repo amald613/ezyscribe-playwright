@@ -16,7 +16,7 @@ export default defineConfig({
     trace: 'on-first-retry', // collect trace only on retry
     screenshot: 'only-on-failure', // auto screenshot on test failure
     video: 'retain-on-failure', // record video on failure
-    headless: true, // run headless in CI
+    headless: false, // run headless in CI
   },
 
   // Reporter configuration
