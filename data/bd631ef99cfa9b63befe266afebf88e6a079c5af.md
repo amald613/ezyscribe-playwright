@@ -20,18 +20,18 @@
           - generic [ref=e16]:
             - generic [ref=e17]:
               - generic [ref=e18]: Email
-              - textbox "Email" [ref=e19]: verylongemail@exampletoolonglonglongdomain.com
+              - textbox "Email" [ref=e19]: doctor@example.com
             - generic [ref=e20]:
               - generic [ref=e21]:
                 - generic [ref=e22]: Password
                 - button "Forgot your password?" [ref=e23] [cursor=pointer]
               - generic [ref=e24]:
-                - textbox [ref=e25]: DocPass123
+                - textbox [ref=e25]: DOCPASS123
                 - button [ref=e26]:
                   - generic [ref=e27]:
                     - img
-            - paragraph [ref=e28]: Captcha verification failed
-            - button "Submit" [ref=e29] [cursor=pointer]
+            - paragraph [ref=e28]: Invalid email or password
+            - button "Submit" [ref=e29]
           - generic [ref=e31]: Or continue with
           - generic [ref=e32]:
             - button "Epic Logo" [ref=e33]:
